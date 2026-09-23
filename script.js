@@ -39,7 +39,7 @@ els.forEach(el => io.observe(el));
 // LƯU Ý: link này bị lỗi cú pháp sẵn trong file gốc (thiếu dấu ngoặc kép và bị ngắt dòng),
 // khiến TOÀN BỘ script.js không chạy được (kể cả hiệu ứng mở thiệp mới thêm).
 // Mình đã nối lại cho hợp lệ, bạn kiểm tra và thay bằng đúng link Google Apps Script Web App của bạn (dạng .../macros/s/XXXX/exec).
-const API_URL = "https://script.google.com/mc" + "MR8ZaHuWLBrpDd3NESLt7n9t-eMbwEVUAQNY396ge";
+const API_URL = "https://script.google.com/";
 let imageFile = null;
 
 document.getElementById('guestImage').addEventListener('change', function(e) {
